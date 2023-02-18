@@ -12,6 +12,7 @@ import Shop from "./sections/Shop";
 import ScrollTriggerProxy from "./Components/ScrollTriggerProxy";
 import Marquee from "./sections/Marque";
 import NewArrival from "./sections/NewArrival";
+import Footer from "./sections/Footer";
 
 function App() {
   const containerRef = useRef(null);
@@ -42,6 +43,7 @@ function App() {
               <Shop />
               <Marquee />
               <NewArrival />
+              <Footer />
             </main>
           </AnimatePresence>
         </LocomotiveScrollProvider>
